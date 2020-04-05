@@ -1,0 +1,4 @@
+{
+  // html内でvueの変数をチェックする
+  "vetur.experimental.templateInterpolationService": true
+}
