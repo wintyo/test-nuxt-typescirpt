@@ -4,7 +4,7 @@
 <div>
   <p>Composition API(html)</p>
   <!-- propsの型推論がおかしい -->
-  <p>value: {{ props.value }}</p>
+  <!-- <p>value: {{ props.value }}</p> -->
   <ul>
     <template v-for="(item, index) in data.arr">
       <!-- ループ内の値の型もみてくれる -->
