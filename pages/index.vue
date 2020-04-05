@@ -20,6 +20,10 @@ div
     ClassTypedVueHtml(
       :value="5"
     )
+  .block
+    CompositionHtml(
+      :value="0"
+    )
 </template>
 
 <script lang="ts">
@@ -28,6 +32,7 @@ import StandardHtml from '@/components/StandardHtml.vue';
 import TypedVueHtml from '@/components/TypedVueHtml.vue';
 import ClassHtml from '@/components/ClassHtml.vue';
 import ClassTypedVueHtml from '@/components/ClassTypedVueHtml.vue';
+import CompositionHtml from '@/components/CompositionHtml.vue';
 
 export default {
   components: {
@@ -36,6 +41,7 @@ export default {
     TypedVueHtml,
     ClassHtml,
     ClassTypedVueHtml,
+    CompositionHtml,
   },
 }
 </script>

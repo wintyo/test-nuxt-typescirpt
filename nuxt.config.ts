@@ -33,6 +33,7 @@ const nuxtConfig: Configuration = {
   */
   plugins: [
     '@/plugins/typed-vue',
+    '@/plugins/composition-api',
   ],
   /*
   ** Nuxt.js dev-modules
