@@ -17,6 +17,10 @@ div
       :value="5"
     )
   .block
+    ClassHtmlInjectParams(
+      :value="5"
+    )
+  .block
     ClassTypedVueHtml(
       :value="5"
     )
@@ -31,6 +35,7 @@ import StandardPug from '@/components/StandardPug.vue';
 import StandardHtml from '@/components/StandardHtml.vue';
 import TypedVueHtml from '@/components/TypedVueHtml.vue';
 import ClassHtml from '@/components/ClassHtml.vue';
+import ClassHtmlInjectParams from '@/components/ClassHtmlInjectParams.vue';
 import ClassTypedVueHtml from '@/components/ClassTypedVueHtml.vue';
 import CompositionHtml from '@/components/CompositionHtml.vue';
 
@@ -40,6 +45,7 @@ export default {
     StandardHtml,
     TypedVueHtml,
     ClassHtml,
+    ClassHtmlInjectParams,
     ClassTypedVueHtml,
     CompositionHtml,
   },
